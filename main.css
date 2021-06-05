@@ -136,6 +136,11 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 850px) {
+  main {
+    width: 850px;
+  }
+}
 
 /*
  *
@@ -168,6 +173,17 @@ main {
   width: 100%;
   color: #fff;
   padding: 1em;
+}
+@media screen and (min-width: 550px) {
+  .hero {
+    order: 0;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero {
+    width: 50%;
+  }
 }
 
 
@@ -212,6 +228,12 @@ main {
 .top-news__item a:hover,
 .top-news__item a:active {
   text-decoration: underline;
+}
+@media screen and (min-width: 700px) {
+  .top-news {
+    order: 1;
+    width: 50%;
+  }
 }
 
 
@@ -260,6 +282,13 @@ main {
 .scores__table td:nth-child(2),
 .scores__table td:nth-child(5) {
   text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .scores {
+    order: 2;
+    width: 50%;
+  }
 }
 
 /*
@@ -313,6 +342,12 @@ main {
 
 .weather__next__image {
   width: 100%;
+}
+@media screen and (min-width: 550px) {
+  .weather {
+    order: 1;
+    width: 40%;
+  }
 }
 
 
